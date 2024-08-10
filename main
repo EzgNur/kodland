@@ -1,0 +1,14 @@
+import random
+
+# Gerçekler listesi
+gercekler = [
+    "Kedi sahibiyim.",
+    "Fransızca biliyorum.",
+    "Gitar çalabiliyorum.",
+    "Kış meyvelerini çok severim.",
+    "Kamp yapmayı çok seviyorum."
+]
+
+# Rastgele bir gerçek seç
+secilen_gercek = random.choice(gercekler)
+print(secilen_gercek)
